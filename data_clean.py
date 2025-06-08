@@ -11,7 +11,7 @@ else:
     y = df.iloc[:, -1]
     X = df.iloc[:, :-1]
 
-# Randomly select 40 features
+# Select 40 features
 selected_features = X.sample(n=40, axis=1, random_state=42)
 
 # Combine back with label
